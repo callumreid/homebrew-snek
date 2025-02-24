@@ -7,6 +7,6 @@ class Snek < Formula
 
   def install
     bin.install "snek-mac" => "snek"
-    chmod "+x", bin/"snek"
+    chmod 0755, bin/"snek"
   end
 end
