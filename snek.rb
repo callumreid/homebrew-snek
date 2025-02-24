@@ -6,6 +6,6 @@ class Snek < Formula
   version "1.0.1"
 
   def install
-    bin.install "snek-mac"
+    bin.install "snek-mac" => "snek"
   end
 end
